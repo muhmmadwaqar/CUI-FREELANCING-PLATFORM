@@ -4,11 +4,9 @@
   justify-content: center;
   background-color: #013914;
   color: white;
-  padding: 20px; /* Added padding */
-  
+
   .container {
-    max-width: 1400px; /* Changed width to max-width for responsiveness */
-    width: 100%; /* Added for responsiveness */
+    width: 1400px;
     display: flex;
     align-items: center;
 
@@ -33,7 +31,6 @@
         align-items: center;
         justify-content: space-between;
         overflow: hidden;
-        padding: 10px; /* Added padding */
 
         .searchInput {
           display: flex;
