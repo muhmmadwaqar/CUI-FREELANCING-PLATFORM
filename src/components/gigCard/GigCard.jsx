@@ -3,30 +3,32 @@ import "./GigCard.scss";
 import { Link } from "react-router-dom";
 
 const GigCard = ({ item }) => {
+  const defaultUserImage = "/img/default_user.png";
+  const defaultGigImage = "/img/default_gig.png";
+
   return (
-    <Link to="/gig/123" className="link">
+    <Link to={`/gig/${item.id}`} className="link">
       <div className="gigCard">
-        <img src={item.img} alt="" />
+        <div className="imageContainer">
+          <img className="gigImage" src={item.img || defaultGigImage} alt={`Preview of ${item.title}`} />
+        </div>
         <div className="info">
           <div className="user">
-            <img src={item.pp} alt="" />
-            <span>{item.username}</span>
+            <img className="userImage" src={item.pp || defaultUserImage} alt={`${item.username}'s profile`} />
+            <span className="username">{item.username}</span>
           </div>
-          <p>{item.desc}</p>
-          <div className="star">
-            <img src="./img/star.png" alt="" />
+          <p className="description">{item.desc}</p>
+          <div className="rating">
+            <img src="./img/star.png" alt="Star rating" />
             <span>{item.star}</span>
           </div>
         </div>
         <hr />
         <div className="detail">
-          <img src="./img/heart.png" alt="" />
+          <img src="./img/heart.png" alt="Favorite" className="heartIcon" />
           <div className="price">
-            <span>STARTING AT</span>
-            <h2>
-              $ {item.price}
-              <sup>99</sup>
-            </h2>
+            <span className="priceText">STARTING AT</span>
+            <h2 className="priceAmount">$ {item.price.toFixed(2)}</h2>
           </div>
         </div>
       </div>
