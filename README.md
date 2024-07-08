@@ -1,16 +1,62 @@
-Here are the points with some additional information and formatting:
+# CUI Freelancing Platform
 
-*Setting Up the Development Environment*
+The CUI Freelancing Platform is designed to connect students with employers for freelancing opportunities. This platform aims to provide students with real-world work experience and employers with talented and motivated individuals.
 
-1. *Install Node.js*: Download and install Node.js from the official website to run JavaScript on your computer.
-2. *Install VS Code*: Download and install Visual Studio Code (VS Code) as your code editor.
-3. *Git Clone*: Clone the repository from the given URL using the command `git clone "*URL*"` in your terminal or command prompt.
-4. *Change Directory*: Navigate to the cloned repository using `cd cui_freelancing-platform`.
-5. *Install Dependencies*: Run `npm install` to install all the dependencies required for the project.
-6. *Start Development Server*: Run `npm run dev` to start the development server and begin working on the project.
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-*Additional Tips*
+## Features
+- **User Authentication**: Secure login and registration for students and employers.
+- **Profile Management**: Detailed profiles for students and employers.
+- **Job Listings**: Employers can post job listings and students can browse and apply.
+- **Bid System**: Students can bid on projects and employers can select the best candidate.
+- **Messaging System**: In-platform messaging for communication between students and employers.
+- **Review System**: Employers can review students based on their performance.
+- **Dashboard**: Personalized dashboards for students and employers to manage their activities.
 
-- Make sure you have a stable internet connection for the installation process.
-- Use the terminal or command prompt to run the commands.
-- If you encounter any issues, try running the commands with administrator
+## Installation
+### Prerequisites
+- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+
+### Steps
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/muhmmadwaqar/CUI-Freelancing-Platform.git
+   cd CUI-Freelancing-Platform
+2. **Install dependencies and configure the environment:**:
+  npm install
+3. **Create a .env file in the root directory and add the following:**:
+  echo "MONGO_URI=your_mongodb_uri" >> .env
+  echo "JWT_SECRET=your_jwt_secret" >> .env
+
+4.  **Run the application**:
+   npm start
+Usage
+Student Dashboard: Accessible at /student-dashboard, where students can manage their profiles, browse job listings, bid on projects, and communicate with employers.
+Employer Dashboard: Accessible at /employer-dashboard, where employers can post jobs, review applications, and communicate with students.
+Contributing
+We welcome contributions! Please follow these steps to contribute:
+
+Fork the repository.
+Create a new branch: git checkout -b my-feature-branch
+Make your changes and commit them: git commit -m 'Add new feature'
+Push to the branch: git push origin my-feature-branch
+Submit a pull request.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+For questions or support, please contact:
+
+Muhammad Waqar
+Email: itswaqarmalik11@gmail.com
+Feel free to reach out if you have any questions or need further assistance.
+
+This README was generated with ❤️ by Muhammad Waqar
+   
