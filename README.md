@@ -1,4 +1,4 @@
-Here’s an updated README file for the **CUI Freelancing Platform** that incorporates an automatic approach and can include your image.
+Here’s the updated README file with the correct image path:
 
 ---
 
@@ -6,7 +6,7 @@ Here’s an updated README file for the **CUI Freelancing Platform** that incorp
 
 The **CUI Freelancing Platform** is a dynamic web application designed to connect students with employers, facilitating freelancing opportunities for students while providing employers access to talented individuals eager to contribute to projects.
 
-![CUI Freelancing Platform Screenshot](https://github.com/muhmmadwaqar/CUI-Freelancing-Platform/blob/main/path_to/Screenshot%20(14).png)
+![CUI Freelancing Platform Screenshot](https://github.com/muhmmadwaqar/CUI-Freelancing-Platform/raw/main/Screenshot%20(14).png)
 
 ## Table of Contents
 - [Features](#features)
@@ -90,4 +90,4 @@ This README was generated with ❤️ by Muhammad Waqar
 
 ---
 
-Make sure to replace `path_to/Screenshot%20(14).png` with the actual path where your image is stored in the repository.
+Feel free to update the `.env` file section with your actual MongoDB URI and JWT secret!
